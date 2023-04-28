@@ -81,13 +81,14 @@ function getTopStudents(students) {
   return topStudents;
 }
 const students = [
-  { name: 'Alice', scores: [80, 90, 85] },
-  { name: 'Bob', scores: [70, 80, 90] },
-  { name: 'Charlie', scores: [90, 95, 92] },
+  { name: 'John', scores: [90, 80, 85] },
+  { name: 'Jane', scores: [95, 92, 88] },
+  { name: 'Jim', scores: [70, 80, 75] },
+  { name: 'Jill', scores: [85, 90, 84] },
 ];
 
 const topStudents = getTopStudents(students);
-console.log(topStudents); // Output: ['Alice', 'Charlie']
+console.log(topStudents); 
 
 
 /*
